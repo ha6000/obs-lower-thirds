@@ -1,0 +1,59 @@
+body {
+    margin: 1px;
+    background-color: #1F1E1F;
+
+    font-family: -apple-system, BlinkMacSystemFont, Arial, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.controls {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    display: flex;
+    background-color: #3A393A;
+}
+
+.controls, .float {
+    height: 1.5em;
+    font-size: 8vw;
+    width: 100%
+}
+
+.controls button {
+    font-size: inherit;
+    /* margin: auto 0.5vw; */
+    flex: 1 1 0;
+    /* padding: auto 2vw; */
+    font-weight: bold;
+}
+
+.names {
+    color: #D2D2D2;
+    list-style-type: none;
+    font-size: 20px;
+    padding-inline: 0;
+    cursor: default;
+    padding: 0;
+    margin: 0;
+    margin-top: 2.5px;
+    user-select: none;
+}
+
+/* .names li:hover {
+    background: grey;
+} */
+
+.names li {
+    padding-left: 10px;
+    /* background: gray; */
+    /* border: 3px solid white; */
+    /* border-top: 5px; */
+    /* border-bottom: 5px; */
+    /* border */
+}
+
+.active {
+    background: #302F30;
+}
+
+/* item heigth 17px */
